@@ -43,7 +43,6 @@ bankData[40] = "广州银行";
 
 function initializeBanks(obj) {
     var defaultBank = bankData[0];
-	alert(bankData[0]);
 	for (var i=0; i < bankData.length; i++) {
 		$('<option value="' + bankData[i] + '">' + bankData[i] + '</option>').appendTo('#' + obj);
 	}
